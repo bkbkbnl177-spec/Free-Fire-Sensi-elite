@@ -4,7 +4,7 @@ import { SensitivitySettings } from "../types";
 
 export const getSensitivityForDevice = async (deviceModel: string): Promise<SensitivitySettings> => {
   // Always use process.env.API_KEY directly when initializing the GoogleGenAI client instance
-  const apiKey = process.env.API_KEY;
+  const apiKey = AIzaSyCpFjzD1l8sSnApDSNH8AzNStrRQG6ptaM;
   if (!apiKey) {
     throw new Error("API Key is missing. Please check your environment variables.");
   }
